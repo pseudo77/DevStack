@@ -8,6 +8,7 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Popular",
+    "badgeColor": "bg-blue-50 text-blue-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Building a dynamic dashboard with reusable components"
   },
   {
@@ -19,6 +20,7 @@
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Full-Stack",
+    "badgeColor": "bg-purple-50 text-purple-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Building a production-ready e-commerce website"
   },
   {
@@ -30,6 +32,7 @@
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
     "badge": "Easy",
+    "badgeColor": "bg-emerald-50 text-emerald-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Creating an interactive single-page application"
   },
   {
@@ -41,6 +44,7 @@
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Popular",
+    "badgeColor": "bg-blue-50 text-blue-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Creating a REST API for a web application"
   },
   {
@@ -52,6 +56,7 @@
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential",
+    "badgeColor": "bg-amber-50 text-amber-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Building an authentication API with Node.js"
   },
   {
@@ -63,6 +68,7 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Popular",
+    "badgeColor": "bg-blue-50 text-blue-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Automating tasks or building a web application"
   },
   {
@@ -74,6 +80,7 @@
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Essential",
+    "badgeColor": "bg-amber-50 text-amber-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Adding type safety to a React application"
   },
   {
@@ -85,6 +92,7 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential",
+    "badgeColor": "bg-amber-50 text-amber-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Creating interactive forms and dynamic web pages"
   },
   {
@@ -96,6 +104,7 @@
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Fast",
+    "badgeColor": "bg-cyan-50 text-cyan-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Designing a responsive landing page"
   },
   {
@@ -107,6 +116,7 @@
     "rating": 4.6,
     "difficulty": "Beginner-Friendly",
     "badge": "Classic",
+    "badgeColor": "bg-indigo-50 text-indigo-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Building a responsive business website"
   },
   {
@@ -118,6 +128,7 @@
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Top SQL",
+    "badgeColor": "bg-sky-50 text-sky-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Storing users, products, and orders for an e-commerce application"
   },
   {
@@ -129,6 +140,7 @@
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Flexible",
+    "badgeColor": "bg-green-50 text-green-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Storing JSON-like user and product data"
   },
   {
@@ -140,6 +152,7 @@
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Containers",
+    "badgeColor": "bg-blue-50 text-blue-700 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Containerizing a Node.js application for deployment"
   },
   {
@@ -151,6 +164,7 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential",
+    "badgeColor": "bg-amber-50 text-amber-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Tracking and managing changes in a project"
   },
   {
@@ -162,6 +176,7 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Popular",
+    "badgeColor": "bg-blue-50 text-blue-600 border border-slate-200 rounded-4xl p-1 text-[11.5px]",
     "example": "Hosting a React project and collaborating with developers"
   }
 ]

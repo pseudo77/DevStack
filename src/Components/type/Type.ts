@@ -7,5 +7,6 @@ export interface Itechnology{
     "rating": number,
     "difficulty": string,
     "badge": string,
+    "badgeColor": string,
     "example": string
 }
