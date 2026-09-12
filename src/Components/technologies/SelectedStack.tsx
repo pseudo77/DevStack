@@ -16,7 +16,7 @@ const SelectedStack = ({selectedTechnologies,handleRemoveStack, handleAllRemoveS
                 <div className="border border-slate-100 h-auto rounded-2xl p-8">
                     <h1 className="font-bold text-[32px] text-[#0F172A] ">Your Stack</h1>
                     <h2 className="font-regular text-[20px] text-[#94A3B8] mb-4 ">No technologies selected yet</h2>
-                    <button className="p-5 w-full text-[#94A3B8] text-[12px] bg-[#E2E8F0] font-normal border border-slate-100 rounded-xl ">Your stack is empty</button>
+                    <button className="p-5 w-full text-[#94A3B8] text-[16px] bg-[#ffffff] font-normal border border-slate-100 rounded-xl ">Your stack is empty</button>
                 </div>
             </div>
         )
@@ -36,7 +36,7 @@ const SelectedStack = ({selectedTechnologies,handleRemoveStack, handleAllRemoveS
                                 })
                             }
                         </div>
-                        <button onClick={()=>handleAllRemoveStack()} className="w-full border border-[#ED8C85] rounded-lg text-[#D82C20] text-[20px] font-semibold mt-12">Remove All</button>
+                        <button onClick={()=>handleAllRemoveStack()} className="w-full border border-[#ED8C85] rounded-lg text-[#D82C20] text-[20px] font-semibold mt-12 hover:scale-102">Remove All</button>
                     </div>
                </div>   
         </div>

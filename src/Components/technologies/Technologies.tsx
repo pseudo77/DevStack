@@ -3,6 +3,7 @@ import { use, useState } from "react";
 import type { Itechnology } from "../type/Type";
 import AvailableStack from "./AvailableStack";
 import SelectedStack from "./SelectedStack";
+import { Bounce, toast } from "react-toastify";
 
 interface ItechnologyProps{
     promise:Promise<Itechnology[]>
@@ -20,10 +21,32 @@ const Technologies = ({promise}:ItechnologyProps) => {
 
     const handleRemoveStack=((selected:Itechnology)=>{
         const restStacks=selectedTechnologies.filter(stack=>stack.name!==selected.name);
-        setSelectedTechnologies(restStacks)
+        setSelectedTechnologies(restStacks);
+        toast.error('An Item Removed', {
+            position: "top-right",
+            autoClose: 1500,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+            });
     })
     const handleAllRemoveStack=()=>{
-        setSelectedTechnologies([])
+        setSelectedTechnologies([]);
+        toast.error('All Items Removed', {
+            position: "top-left",
+            autoClose: 1500,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+            });
     }
     
     return (

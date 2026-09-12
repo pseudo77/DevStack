@@ -18,7 +18,7 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
                 handleSelectedTechnologies(technology)
                 toast.success('Added to Stack', {
                 position: "top-center",
-                autoClose: 5000,
+                autoClose: 1500,
                 hideProgressBar: false,
                 closeOnClick: false,
                 pauseOnHover: true,
@@ -50,7 +50,7 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
                                     </div>
                                     <button onClick={()=>handleAddStack(true)} 
                                     className={`${addStack===false?"btn btn-outline  mt-4 w-full bg-[#0A0F1D] text-[12px] text-[#ffffff] font-medium rounded-2xl":"btn btn-outline border-slate-100 mt-4 w-full bg-[#ffffff] text-[12px] text-[#cdd3e6] font-medium rounded-2xl "}`}
-                                    disabled={addStack}>Add to stack
+                                    disabled={addStack}>{addStack===true?"Added to stack":"Add to stack"}
                                     </button>
                                 
             </div>
