@@ -10,6 +10,17 @@ interface IselectedProps{
 }
 
 const SelectedStack = ({selectedTechnologies,handleRemoveStack, handleAllRemoveStack}:IselectedProps) => {
+    if(selectedTechnologies.length===0){
+        return (
+            <div >
+                <div className="border border-slate-100 h-auto rounded-2xl p-8">
+                    <h1 className="font-bold text-[32px] text-[#0F172A] ">Your Stack</h1>
+                    <h2 className="font-regular text-[20px] text-[#94A3B8] mb-4 ">No technologies selected yet</h2>
+                    <button className="p-5 w-full text-[#94A3B8] text-[12px] bg-[#E2E8F0] font-normal border border-slate-100 rounded-xl ">Your stack is empty</button>
+                </div>
+            </div>
+        )
+    }
     return (
         <div>
                <div className="border border-slate-100 h-auto rounded-lg ">
