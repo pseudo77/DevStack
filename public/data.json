@@ -63,7 +63,7 @@
     "id": "python",
     "name": "Python",
     "category": "Language",
-    "description": "A versatile, high-level programming language widely used for web development, automation, data science, and AI.",
+    "description": "A versatile, high-level programming language widely used for web development, automation, data science.",
     "icon": "https://icon.icepanel.io/Technology/svg/Python.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",

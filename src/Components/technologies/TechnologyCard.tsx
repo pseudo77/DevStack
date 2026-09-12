@@ -7,15 +7,15 @@ import { Bounce, toast } from "react-toastify";
 
 interface IcardProps{
     technology:Itechnology
-    handleSelectedTechno:()=>void
+    handleSelectedTechnologies:(technology:Itechnology)=>void
 }
 
-const TechnologyCard = ({technology, handleSelectedTechno}:IcardProps) => {
+const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => {
     const [addStack, setAddStack]=useState<boolean>(false)
             type add=true|false
             const handleAddStack=(value:add)=>{
                 setAddStack(value)
-                handleSelectedTechno()
+                handleSelectedTechnologies(technology)
                 toast.success('Added to Stack', {
                 position: "top-center",
                 autoClose: 5000,
@@ -27,6 +27,7 @@ const TechnologyCard = ({technology, handleSelectedTechno}:IcardProps) => {
                 theme: "light",
                 transition: Bounce,
                 });
+
             }
 
     return (
