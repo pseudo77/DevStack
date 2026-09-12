@@ -7,7 +7,7 @@ function NavBar(){
         <div className="sticky top-5 z-50 ">
             <div className="hidden md:flex justify-between container mx-auto mt-5 mb-10 align-middle items-center">
                 <div>
-                    <img src={Image} alt="BrandName" />
+                    <img className={`${theme.BRAND_GRADIENT} bg-clip-text text-transparent`} src={Image} alt="BrandName" />
                 </div>
                 <div className="flex justify-between gap-6">
                     <a href="#" className="text-[#DB2777]">Home</a>

@@ -4,6 +4,7 @@ import Hero from "./Components/hero/Hero"
 import NavBar from "./Components/navBar/NavBar"
 import Technologies from "./Components/technologies/Technologies"
 import type { Itechnology } from "./Components/type/Type"
+import Footer from "./Components/footer/Footer"
 
 function App() {
   const PromisData=async():Promise<Itechnology[]>=>{
@@ -19,6 +20,11 @@ function App() {
       <Suspense fallback={<h1>Loading</h1>}>
         <Technologies promise={promise}></Technologies>
       </Suspense>
+      <div className="my-20">
+        <hr className="text-slate-100" />
+      </div>
+      <Footer></Footer>
+
     </>
   )
 }
