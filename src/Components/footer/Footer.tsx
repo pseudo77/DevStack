@@ -21,25 +21,25 @@ const Footer = () => {
                     </div>
                     <div className="max-md:hidden">
                         <ul className="text-[#64748B] text-[14px] space-y-2">
-                            <li className="text-[#0F172A] font-bold text-[15px] ">Products</li>
-                            <li>Home</li>
-                            <li>Technologies</li>
-                            <li>Projects</li>
+                            <li className="text-[#0F172A] font-bold text-[15px] "><a href="#">Products</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Technologies</a></li>
+                            <li><a href="#">Projects</a></li>
                         </ul>
                     </div >
                     <div className="max-md:hidden">
                         <ul className="text-[#64748B] text-[14px] space-y-2" >
-                            <li className="text-[#0F172A] font-bold text-[15px] ">Company</li>
-                            <li>About</li>
-                            <li>Contacts</li>
-                            <li>Careers</li>
+                            <li className="text-[#0F172A] font-bold text-[15px] "><a href="#">Company</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="Contacts"></a></li>
+                            <li><a href="#">Careers</a></li>
                         </ul>
                     </div>
                     <div className="max-md:hidden">
                         <ul className="text-[#64748B] text-[14px] space-y-2">
-                            <li className="text-[#0F172A] font-bold text-[15px] ">Legal</li>
-                            <li>Privacy Policy</li>
-                            <li>Terms of Service</li>
+                            <li className="text-[#0F172A] font-bold text-[15px] "><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,10 +48,10 @@ const Footer = () => {
                 </div>
                 <div className="max-md:mx-auto flex justify-between text-[#64748B] max-md:text-[11px] text-[14px]  mb-6">
                     <h1>© 2026 Dev Stack. All rights reserved.</h1>
-                    <div className="flex justify-between max-md:gap-2 gap-5 items-center" >
-                        <h1>Privacy</h1>
-                        <h1>Terms</h1>
-                    </div>
+                    <ul className="flex justify-between max-md:gap-2 gap-5 items-center">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
