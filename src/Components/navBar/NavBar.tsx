@@ -27,14 +27,16 @@ function NavBar(){
     {/* Responsive Part for PC Users Ends */}
 
     {/* Responsive Part For Mobile Users Starts*/}
-            <div className="flex md:hidden justify-between container mx-auto mt-5 align-middle items-center">
+            <div className="md:hidden flex justify-between container mx-auto mt-5 align-middle items-center">
                 <div>
                     <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
                 </div>
-                <img src={Image} alt="Name" />
-                <div className="flex justify-between align-middle items-center gap-5">
-                    <button className=" cursor-pointer text-[9px] text-[#4B5563] font-bold ">Sign In</button>
-                    <button className={`btn rounded-full ${theme.brandGradient} text-[9px] text-[#FFFFFF] font-semibold  `}>Sign Up</button>
+                <div className="flex justify-between gap-5">
+                    <img className="mx-auto" src={Image} alt="Name" />
+                    <div className="flex justify-between align-middle items-center gap-1">
+                        <button className=" cursor-pointer text-[9px] text-[#4B5563] font-bold ">Sign In</button>
+                        <button className={`btn rounded-full ${theme.brandGradient} text-[9px] text-[#FFFFFF] font-semibold  `}>Sign Up</button>
+                    </div>
                 </div>
             </div>
     {/* Responsive Part for Mobile Users Ends */}
