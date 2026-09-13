@@ -51,6 +51,7 @@ const Technologies = ({promise}:ItechnologyProps) => {
     
     return (
         <div>
+            
             <div className="max-md:text-center container mx-auto px-5 md:px-8 leading-12 ">
                 <h1 className="font-extrabold max-md:text-[24px] text-[36px]  tracking-[-0.9px]">Explore the <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent ">Technologies</span></h1>
                 <h2 className="max-md:text-[12px]  text-[16px] text-[#64748B] mb-4 ">Pick one technology per category to build your ideal stack.</h2>

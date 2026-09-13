@@ -49,7 +49,7 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
                                     </div>
                                     <button onClick={()=>handleAddStack(true)} 
                                     className={`${addStack===false?"btn btn-outline  mt-4 w-full  bg-[#0A0F1D] text-[12px] text-[#ffffff] font-medium rounded-2xl":"btn btn-outline border-slate-100 mt-4 w-full bg-[#ffffff] text-[12px] text-[#cdd3e6] font-medium rounded-2xl "}`}
-                                    disabled={addStack}>{addStack===true?"✓ Added to Stack":"Add to stack"}
+                                    disabled={addStack}>{addStack===true?"✓ Added to Stack":"Add to Stack"}
                                     </button>
                                 
             </div>
