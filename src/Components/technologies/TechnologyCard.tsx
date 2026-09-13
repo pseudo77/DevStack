@@ -16,9 +16,9 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
             const handleAddStack=(value:add)=>{
                 setAddStack(value)
                 handleSelectedTechnologies(technology)
-                toast.success('Added to Stack', {
+                toast.success('Item Added to Stack', {
                 position: "top-center",
-                autoClose: 1500,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: false,
                 pauseOnHover: true,
