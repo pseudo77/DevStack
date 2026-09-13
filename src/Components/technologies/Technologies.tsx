@@ -22,7 +22,7 @@ const Technologies = ({promise}:ItechnologyProps) => {
     const handleRemoveStack=((selected:Itechnology)=>{
         const restStacks=selectedTechnologies.filter(stack=>stack.name!==selected.name);
         setSelectedTechnologies(restStacks);
-        toast.error('An Item Removed', {
+        toast.error('1 Stack Removed', {
             position: "top-right",
             autoClose: 1500,
             hideProgressBar: false,
@@ -36,7 +36,7 @@ const Technologies = ({promise}:ItechnologyProps) => {
     })
     const handleAllRemoveStack=()=>{
         setSelectedTechnologies([]);
-        toast.error('All Items Removed', {
+        toast.error('All Stacks Removed', {
             position: "top-left",
             autoClose: 1500,
             hideProgressBar: false,

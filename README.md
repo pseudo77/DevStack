@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+# DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+DevStack is a web application for exploring different technologies.
 
-Currently, two official plugins are available:
+# Technologies Used
+- React
+- TypeScript
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Features
 
-## React Compiler
+- Browse different technologies
+- Choose different technologies
+- View technology details
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Answer to the questions
 
-## Expanding the Oxlint configuration
+I. JSX is simply an extension of JavaScript. It is used in React to write html codes along with JavaScript as we can combine web structure with logic.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+II. Props is nothing but an object which we can simply use by destructuring or directly as well. On the other hand, state is simply a variable but special type of variable by which we store data in React.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+III. useState hook has 2 things. First one is state variable and second one is setter function. By the variable it stores value and with the setter function it updates the state variable's value.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+IV. useEffect lets React run code after the component renders. We use it to fetch the JSON data after the page loads and then store that data in state.
+
+V. We need key while using .map() because, by key we can identify unique items each.
+
+VI. Conditional rendering means showing something when condition fullfills. In this project, conditional rendering has been used inside the SelectedStack component.
+
+VII. As a prop we can pass data to childrens directly. But for grand child we still pass data as props but this method is called props-drilling. 
+If a child wants to pass data back to parent, it can simply do it by calling a function passed by parent. 
