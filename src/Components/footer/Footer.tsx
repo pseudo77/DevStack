@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <div className="container max-md:text-center mx-auto px-5 md:px-8">
                 <div className="  flex  justify-between md:mr-30  ">
-                    <div className="space-y-5 md:space-y-6">
+                    <div className="space-y-5 md:space-y-4">
                         <img className="max-md:mx-auto" src={Image} alt="Footer" />
                         <p className="text-[#64748B] max-md:text-[12px] md:max-w-94.25 text-[14px] mb-4">Curated tools, technologies, and resources for developers building 
                             modern software.
