@@ -5,7 +5,7 @@ import { theme } from "../type/Type"
 
 function NavBar(){
     return (
-        <div className="container mx-auto px-5 md:px-8 sticky top-5 z-50 ">
+        <div className="container mx-auto  px-5 md:px-8 sticky top-0 z-50 bg-[#ffffff]">
 
     {/* Responsive Part for PC Users Starts */}
             <div className="hidden md:flex justify-between container mx-auto mt-5 mb-10 align-middle items-center">

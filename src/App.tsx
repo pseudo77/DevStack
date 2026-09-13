@@ -26,7 +26,7 @@ function App() {
       </div>}>
         <Technologies promise={promise}></Technologies>
       </Suspense>
-      <div className="my-10 md:my-20">
+      <div className="container mx-auto px-5 md:px-8 my-10 md:my-20">
         <hr className="text-slate-100" />
       </div>
       <Footer></Footer>
