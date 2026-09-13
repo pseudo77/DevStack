@@ -5,7 +5,7 @@ import { theme } from "../type/Type"
 
 function NavBar(){
     return (
-        <div className="sticky top-5 z-50 ">
+        <div className="container mx-auto px-5 md:px-8 sticky top-5 z-50 ">
 
     {/* Responsive Part for PC Users Starts */}
             <div className="hidden md:flex justify-between container mx-auto mt-5 mb-10 align-middle items-center">
@@ -20,8 +20,8 @@ function NavBar(){
                     <a href="#">Contacts</a>
                 </div>
                 <div className="flex justify-between align-middle items-center gap-5">
-                    <button className=" cursor-pointer text-[16px] text-[#4B5563] font-bold ">Sign In</button>
-                    <button className={`btn rounded-full ${theme.brandGradient} text-[16px] text-[#FFFFFF] font-semibold `}>Sign Up</button>
+                    <button className=" cursor-pointer text-[9px] md:text-[16px] text-[#4B5563] font-bold ">Sign In</button>
+                    <button className={`btn rounded-full ${theme.brandGradient} text-[9px] md:text-[16px] text-[#FFFFFF] font-semibold `}>Sign Up</button>
                 </div>
             </div>
     {/* Responsive Part for PC Users Ends */}

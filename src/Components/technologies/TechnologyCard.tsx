@@ -31,15 +31,15 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
 
     return (
         <div>
-            <div className="flex flex-col border border-slate-200 rounded-2xl w-auto h-full p-5 leading-tight">
+            <div className="flex flex-col border border-slate-200 rounded-2xl w-auto h-full p-5 leading-tight max-md:space-y-3">
                                 
                                     <div className="flex justify-between items-center">
                                         <img className=" w-12 h-12 object-cover object-top rounded-2xl" src={technology.icon} alt="" />
                                         <p className={`${technology.badgeColor}`}>{technology.badge}</p>
                                     </div>
-                                    <h1 className="text-[18px] font-bold text-[#0F172A] my-2 ">{technology.name}</h1>
-                                    <p className="text-[#64748B] text-[12px] max-w-55 leading-relaxed mb-2 line-clamp-3">{technology.description}</p>
-                                    <div className="flex justify-between items-center gap-8">
+                                    <h1 className="max-md:hidden text-[18px] font-bold text-[#0F172A] my-2 ">{technology.name}</h1>
+                                    <p className="max-md:text-left text-[#64748B] text-[12px] max-w-55 leading-relaxed mb-2 line-clamp-3">{technology.description}</p>
+                                    <div className="max-md:text-[12px] flex justify-between items-center gap-8">
                                         <p className="bg-[#F1F5F9] border-[0.25px] border-slate-50 rounded-[3px] p-1">{technology.category}</p>
                                         <p>{technology.difficulty}</p>
                                         <div className="flex justify-between gap-1">
