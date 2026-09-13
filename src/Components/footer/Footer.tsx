@@ -1,12 +1,13 @@
 import Image from "../../assets/logo-text.png"
-import { theme } from "../type/BRAND_GRADIENT";
+import { theme } from "../type/Type";
+
 const Footer = () => {
     return (
         <div>
             <div className="container mx-auto">
                 <div className="flex justify-between mr-30 ">
                     <div>
-                        <img className={`${theme.BRAND_GRADIENT} bg-clip-text text-transparen mb-4`} src={Image} alt="Footer" />
+                        <img className={`${theme.brandGradient} bg-clip-text text-transparen mb-4`} src={Image} alt="Footer" />
                         <p className="text-[#64748B] text-[14px] mb-4">Curated tools, technologies, and resources for developers building <br />
                             modern software.
                         </p>

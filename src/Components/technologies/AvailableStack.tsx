@@ -13,7 +13,7 @@ interface IavailableProps{
 const AvailableStack = ({technologies,handleSelectedTechnologies}:IavailableProps) => {
     return (
         <div>
-            <div className="grid grid-cols-3 gap-10 roun ">
+            <div className="grid grid-cols-3 gap-10  ">
                 {
                     technologies.map((technology:Itechnology)=>{
                         return (

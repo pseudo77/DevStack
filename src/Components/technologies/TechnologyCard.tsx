@@ -27,19 +27,18 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
                 theme: "light",
                 transition: Bounce,
                 });
-
             }
 
     return (
         <div>
-            <div className="border border-slate-200 rounded-2xl w-auto h-71.25 p-5 leading-tight">
+            <div className="flex flex-col border border-slate-200 rounded-2xl w-auto h-full p-5 leading-tight">
                                 
                                     <div className="flex justify-between items-center">
                                         <img className=" w-12 h-12 object-cover object-top rounded-2xl" src={technology.icon} alt="" />
                                         <p className={`${technology.badgeColor}`}>{technology.badge}</p>
                                     </div>
                                     <h1 className="text-[18px] font-bold text-[#0F172A] my-2 ">{technology.name}</h1>
-                                    <p className="text-[#64748B] text-[12px] max-w-55 leading-relaxed mb-2">{technology.description}</p>
+                                    <p className="text-[#64748B] text-[12px] max-w-55 leading-relaxed mb-2 line-clamp-3">{technology.description}</p>
                                     <div className="flex justify-between items-center gap-8">
                                         <p className="bg-[#F1F5F9] border-[0.25px] border-slate-50 rounded-[3px] p-1">{technology.category}</p>
                                         <p>{technology.difficulty}</p>
@@ -49,7 +48,7 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
                                         </div>
                                     </div>
                                     <button onClick={()=>handleAddStack(true)} 
-                                    className={`${addStack===false?"btn btn-outline  mt-4 w-full bg-[#0A0F1D] text-[12px] text-[#ffffff] font-medium rounded-2xl":"btn btn-outline border-slate-100 mt-4 w-full bg-[#ffffff] text-[12px] text-[#cdd3e6] font-medium rounded-2xl "}`}
+                                    className={`${addStack===false?"btn btn-outline  mt-4 w-full  bg-[#0A0F1D] text-[12px] text-[#ffffff] font-medium rounded-2xl":"btn btn-outline border-slate-100 mt-4 w-full bg-[#ffffff] text-[12px] text-[#cdd3e6] font-medium rounded-2xl "}`}
                                     disabled={addStack}>{addStack===true?"Added to stack":"Add to stack"}
                                     </button>
                                 
