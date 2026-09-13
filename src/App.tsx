@@ -21,8 +21,8 @@ function App() {
       <NavBar></NavBar>
       <Hero></Hero>
       <Suspense fallback={<div className="flex items-center justify-center gap-2">
-        <h1 className="text-9xl">Loading...</h1>
-        <FontAwesomeIcon className="text-9xl" icon={faSpinner} spin></FontAwesomeIcon>
+        <h1 className="max-md:text-2xl text-9xl">Loading...</h1>
+        <FontAwesomeIcon className="max-md:text-2xl text-9xl" icon={faSpinner} spin></FontAwesomeIcon>
       </div>}>
         <Technologies promise={promise}></Technologies>
       </Suspense>
