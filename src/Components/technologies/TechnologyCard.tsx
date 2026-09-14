@@ -31,7 +31,7 @@ const TechnologyCard = ({technology, handleSelectedTechnologies}:IcardProps) => 
 
     return (
         <div>
-            <div className="flex flex-col border border-slate-200 rounded-2xl max-w-[333.05px] h-full p-5 leading-tight max-md:space-y-3">
+            <div className="flex flex-col border border-slate-200 rounded-2xl min-w-[333.05px] h-full p-5 leading-tight max-md:space-y-3">
                                 
                                     <div className="flex justify-between items-center">
                                         <img className=" w-12 h-12 object-cover object-top rounded-2xl" src={technology.icon} alt="" />

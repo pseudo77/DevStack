@@ -14,9 +14,9 @@ const SelectedStack = ({selectedTechnologies,handleRemoveStack, handleAllRemoveS
         return (
             <div >
                 <div className="border border-slate-100 h-auto rounded-2xl p-8">
-                    <h1 className="font-bold text-[32px] text-[#0F172A] text-center">Your Stack</h1>
-                    <h2 className="font-regular max-md:text-[15px] text-[20px] text-[#94A3B8] mb-4 ">No technologies selected yet</h2>
-                    <button className="p-5 w-full text-[#94A3B8] text-[16px] bg-[#ffffff] font-normal border border-slate-100 rounded-xl ">Your stack is empty</button>
+                    <h1 className="font-bold max-md:text-[16px] text-[32px] text-[#0F172A] max-md:text-left md:text-center">Your Stack</h1>
+                    <h2 className="font-regular max-md:text-[12px] text-[20px]  text-[#94A3B8] mb-4 max-md:text-left md:text-center ">No technologies selected yet</h2>
+                    <button className="p-5 w-full text-[#94A3B8] max-md:text-[12px] text-[16px] bg-[#ffffff] font-normal border border-slate-100 rounded-xl ">Your stack is empty</button>
                 </div>
             </div>
         )
